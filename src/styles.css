@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+
+.nav {
+  background-color: rgb(232, 55, 152);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: rgb(238, 92, 92);
+}
+
+.nav li:hover {
+  background-color: rgb(250, 40, 40);
+}
+
+.nav > .logo-title > .logo > img{
+  width: 100%;
+}
+
+.nav > .logo-title > .logo {
+  height: 3rem;
+  width: 3rem;
+}
+
+.nav > .logo-title {
+  display: flex;
+}
